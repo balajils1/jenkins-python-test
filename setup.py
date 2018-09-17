@@ -20,10 +20,10 @@ test_requirements=[
 setup(
 	name='webcraft',
 	version='0.2.0',
-	description='SVM classifier for iris data-set',
+	description='SVM classifier for data-set',
 	author='abcd',
 	author_email='avc@gmail.com',
-    url ='https://github.com/mdyzma/jenkins-python-test',
+    url ='https://github.com/balajils1/jenkins-python-test/',
     download_url='https://github.com/mdyzma/jenkins-python-test/archive/0.0.1.tar.gz',
 	license='MIT',
 	packages=find_packages(),
