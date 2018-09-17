@@ -18,19 +18,19 @@ test_requirements=[
 ]
 
 setup(
-	name='webcraft',
-	version='0.2.0',
-	description='SVM classifier for data-set',
-	author='abcd',
-	author_email='avc@gmail.com',
-    url ='https://github.com/balajils1/jenkins-python-test/',
-    #download_url='https://github.com/mdyzma/jenkins-python-test/archive/0.0.1.tar.gz',
+	name='irisvmpy',
+	version='0.0.1',
+	description='SVM classifier for iris data-set',
+	author='Michal Dyzma',
+	author_email='mdyzma@gmail.com',
+    url ='https://github.com/mdyzma/jenkins-python-test',
+    download_url='https://github.com/mdyzma/jenkins-python-test/archive/0.0.1.tar.gz',
 	license='MIT',
 	packages=find_packages(),
 	install_requires=requirements,
 	entry_points={
     	'console_scripts': [
-        		'webcraft = webcraft:cli',
+        		'irisvmpy = irisvmpy.iris:cli',
         	],
         },
 	classifiers=[
