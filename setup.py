@@ -24,7 +24,7 @@ setup(
 	author='abcd',
 	author_email='avc@gmail.com',
     url ='https://github.com/balajils1/jenkins-python-test/',
-    //download_url='https://github.com/mdyzma/jenkins-python-test/archive/0.0.1.tar.gz',
+    #download_url='https://github.com/mdyzma/jenkins-python-test/archive/0.0.1.tar.gz',
 	license='MIT',
 	packages=find_packages(),
 	install_requires=requirements,
