@@ -21,7 +21,7 @@ setup(
 	name='irisvmpy',
 	version='0.0.1',
 	description='SVM classifier for iris data-set',
-	author='Michal,
+	author='Michal',
 	author_email='abc@gmail.com',
     url ='https://github.com/balajils1/jenkins-python-test/',
 	license='MIT',
