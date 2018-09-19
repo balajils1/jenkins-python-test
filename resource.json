@@ -3,8 +3,7 @@
     {
       "pattern": "balajils1/jenkins-python-test",
       "target": "pypi",
-      "build":"#!/bin/bash\n /usr/bin/python setup.py sdist *\n",
-      "build2":"#!/bin/bash\n pip install iris --user *\n",
+      "build":"#!/bin/bash\n /usr/bin/python setup.py sdist *\n #!/bin/bash\n pip install iris --user *\n",
       "regexp": "true"
     }
   ]
