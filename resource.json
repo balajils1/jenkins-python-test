@@ -1,7 +1,7 @@
 {
   "files": [
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/",
+      "pattern": "balajils1/jenkins-python-test",
       "target": "pypi",
       "script":"#!/bin/bash\n /usr/bin/python setup.py sdist *\n",
       "script2":"#!/bin/bash\n pip install iris --user *\n",
