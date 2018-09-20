@@ -18,8 +18,8 @@ test_requirements=[
 ]
 
 setup(
-	name='irisvmpy',
-	version='0.0.1',
+	name='gazelib',
+	version='2.1.1',
 	description='SVM classifier for iris data-set',
 	author='Michal',
 	author_email='abc@gmail.com',
@@ -29,7 +29,7 @@ setup(
 	install_requires=requirements,
 	entry_points={
     	'console_scripts': [
-        		'irisvmpy = irisvmpy.iris:cli',
+        		'gazelib = gazelib:cli',
         	],
         },
 	classifiers=[
