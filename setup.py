@@ -21,7 +21,7 @@ setup(
 	name='gazelib',
 	version='2.1.1',
 	description='SVM classifier for iris data-set',
-	author='Michal',
+	author='abcd',
 	author_email='abc@gmail.com',
     url ='https://github.com/balajils1/jenkins-python-test/',
 	license='MIT',
